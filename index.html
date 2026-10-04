@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>YouBeen Jeon · Robot Learning for Manipulation</title>
-<meta name="description" content="YouBeen Jeon, B.S. candidate in Smart Vehicle Engineering at Konkuk University, working on robot learning for manipulation: human-demonstration data collection and hierarchical planning and control for long-horizon, contact-rich tasks.">
+<meta name="description" content="YouBeen Jeon, B.S. candidate in Smart Vehicle Engineering at Konkuk University, working on robot intelligence for long-horizon tasks: memory-grounded task planning and hierarchical planning and control for household manipulation.">
 <meta name="author" content="YouBeen Jeon">
-<link rel="canonical" href="https://youbeenws.github.io/">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://youbeenjeon.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://youbeenws.github.io/">
+<meta property="og:url" content="https://youbeenjeon.github.io/">
 <meta property="og:title" content="YouBeen Jeon · Robot Learning for Manipulation">
-<meta property="og:description" content="Human-demonstration data collection and hierarchical planning and control for long-horizon, contact-rich manipulation.">
+<meta property="og:description" content="Memory-grounded task planning and hierarchical planning and control for long-horizon manipulation in everyday environments.">
 <meta name="theme-color" content="#faf9f6">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10.5' fill='none' stroke='%23d2461f' stroke-width='5'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -369,7 +370,7 @@ a:hover { text-decoration-color: var(--accent); }
       <div>
         <h1 class="rise" style="--d:0">YouBeen Jeon</h1>
         <p class="role rise" style="--d:1">B.S. Candidate, Smart Vehicle Engineering, Konkuk University</p>
-        <p class="lede rise" style="--d:2">My research interest is robot learning for manipulation, especially how to collect and structure training data and how to combine high-level planning with low-level control to solve long-horizon, contact-rich tasks.</p>
+        <p class="lede rise" style="--d:2">My research interest is robot intelligence for long-horizon tasks in everyday environments, especially how robots can understand brief human requests, remember what they have seen and done, and plan and carry out multi-step manipulation in homes and offices.</p>
         <ul class="links rise" style="--d:3">
           <li><a href="mailto:yoobin1liyfcb@gmail.com">yoobin1liyfcb@gmail.com</a></li>
           <li><a href="YouBeen_Jeon_CV.pdf">CV (PDF)</a></li>
@@ -384,12 +385,12 @@ a:hover { text-decoration-color: var(--accent); }
       <div class="sec-head"><span class="idx">01</span><h2 id="h-interests">Research Interests</h2></div>
       <div class="sec-body focus">
         <article>
-          <h3>Human-demonstration data collection</h3>
-          <p>Datasets from diverse setups such as teleoperation and wearable gloves that go beyond image–action pairs to include object pose, contact points, and contact forces as observations, which are hard to collect in the real world yet essential for more advanced robot learning.</p>
+          <h3>Memory-grounded task planning</h3>
+          <p>Semantic and spatial memory of what the robot has seen, where objects are, and which steps are done, updated as the environment and execution outcomes change, so that a high-level planner can select, chain, and revise skills over long horizons instead of relying on the current view alone.</p>
         </article>
         <article>
           <h3>Hierarchical planning and control</h3>
-          <p>A high-level planner such as a VLM produces plans that diverse low-level controllers (VLA, RL, or classical controllers) execute, solving long-horizon, contact-rich tasks beyond the reach of a single policy and scaling to new tasks and robots.</p>
+          <p>A high-level planner such as a VLM decomposes a request into skills that low-level controllers (VLA or RL policies learned from human demonstrations, or classical controllers) execute, extending from mobile manipulation to bimanual household tasks such as tidying, dishwashing, and laundry.</p>
         </article>
       </div>
     </div>
